@@ -1,6 +1,10 @@
 {
-  "name": "mojave",
-  "version": "0.1.0",
+  "name": "Mojave",
+  "version": "0.0.1",
+  "description": "Software to design labels.",
+  "main": "index.js",
+  "author": "Josh Shor <jpshor@gmail.com>",
+  "license": "UNLICENSED",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,7 +12,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.16"
+    "office-ui-fabric-vue": "^1.1.0",
+    "vue": "^2.5.16",
+    "vue-search-select": "^2.6.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.11",

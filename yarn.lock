@@ -4338,6 +4338,22 @@ obuf@^1.0.0, obuf@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
 
+office-ui-fabric-core@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-core/-/office-ui-fabric-core-5.0.1.tgz#f6f27eb793ceca62366419877b73970de4841e52"
+
+office-ui-fabric-js@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-js/-/office-ui-fabric-js-1.5.0.tgz#d77b778f79a6178f843dd757e4639ae05709d340"
+  dependencies:
+    office-ui-fabric-core "5.0.1"
+
+office-ui-fabric-vue@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-vue/-/office-ui-fabric-vue-1.1.0.tgz#e0aa256df1b0f4027339c8ee402cfde11d56e144"
+  dependencies:
+    office-ui-fabric-js "1.5.0"
+
 on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -6177,6 +6193,10 @@ vue-loader@^15.1.0:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-search-select@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/vue-search-select/-/vue-search-select-2.6.1.tgz#d52df1409ddb0d7c8edc958ce4ae86aeaa64d6d0"
 
 vue-style-loader@^4.1.0:
   version "4.1.0"
