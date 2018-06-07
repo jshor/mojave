@@ -1,7 +1,7 @@
 <template>
     <a :class="`ribbon-button ribbon-button--${size} ribbon-button--${arrangement}`">
         <div class="ribbon-button__icon"></div>
-        <a>
+        <a :class="{ 'ribbon-button__split': !!split }">
             <span class="ribbon-button__text">{{ text }}</span>
         </a>
     </a>
@@ -10,7 +10,7 @@
 <script>
 export default {
     name: 'RibbonButton',
-    props: ['arrangement', 'size', 'text']
+    props: ['arrangement', 'size', 'text', 'split']
 }
 </script>
 

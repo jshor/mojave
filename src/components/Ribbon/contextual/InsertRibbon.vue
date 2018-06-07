@@ -31,6 +31,7 @@
                 <ribbon-button
                     text="Other"
                     size="lg"
+                    :split="true"
                 />
             </ribbon-column>
         </ribbon-group>
